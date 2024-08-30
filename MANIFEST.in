@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include posnextapp *.css
+recursive-include posnextapp *.csv
+recursive-include posnextapp *.html
+recursive-include posnextapp *.ico
+recursive-include posnextapp *.js
+recursive-include posnextapp *.json
+recursive-include posnextapp *.md
+recursive-include posnextapp *.png
+recursive-include posnextapp *.py
+recursive-include posnextapp *.svg
+recursive-include posnextapp *.txt
+recursive-exclude posnextapp *.pyc
